@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DI SẢN VIỆT - Kho tàng truyện dân gian</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>DI SẢN VIỆT</h1>
+    <p>Kho tàng truyện dân gian địa phương</p>
+  </header>
+
+  <nav class="menu">
+    <a href="#trang-chu">Trang chủ</a>
+    <a href="#truyen-thuyet">Truyền thuyết</a>
+    <a href="#truyen-co-tich">Truyện cổ tích</a>
+    <a href="#truyen-cuoi">Truyện cười</a>
+    <a href="#gioi-thieu">Giới thiệu</a>
+  </nav>
+
+  <main id="trang-chu">
+    <section class="intro">
+      <h2>Khám phá kho tàng truyện dân gian</h2>
+      <p>
+        Lưu giữ những câu chuyện dân gian,
+        góp phần bảo tồn và lan tỏa di sản văn hóa địa phương.
+      </p>
+    </section>
+
+    <section class="stories">
+      <h2>Truyện dân gian</h2>
+      <div id="story-list">
+        <p>Danh sách truyện sẽ được cập nhật tại đây.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="gioi-thieu">
+    <p>DI SẢN VIỆT – Gìn giữ câu chuyện quê hương.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
